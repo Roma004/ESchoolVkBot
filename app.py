@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from flask import Flask
-from configs.config import Config
+from config.config import Config
 from errors import ApiErrors
 
 exc = ApiErrors()

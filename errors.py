@@ -16,7 +16,8 @@ class ApiErrors:
             405: {
                 "error": f"{api_text}Method is not allowed(POST or GET)",
                 "code": 405
-            },
+            }
+        }
 
     def return_error(self, code, *args):
         return {

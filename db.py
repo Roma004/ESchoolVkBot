@@ -17,6 +17,6 @@ class BaseModel(Model):
 
 class User(BaseModel):
     user_id = IntegerField(default=0)
-    position = CharField(default="", maxlength=20)
+    position = CharField(default="", max_length=20)
 
     ts = IntegerField(default=0)
